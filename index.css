@@ -1,0 +1,125 @@
+#main{
+    display: flex;
+    justify-content: center;
+}
+
+.first-form-cont{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+body{
+    height: 100%;
+    background-image: url(./adada.svg);
+    background-color: rgb(0, 0, 0);
+    font-family: Inter;
+    background-repeat: repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.H1{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+
+}
+
+.form{
+    width: 550px;
+    height: 350px;
+
+}
+
+h4{
+    margin-top: 0px;
+    color: #666666;
+    text-align: center;
+}
+
+.address input{
+background-color: #f5f5f5;
+border: 1px solid #f5f5f5;
+border-radius: 10px;
+width: 544px;
+height: 40px;
+margin-top: 23px;
+}
+
+.password {
+margin-top: 32px;
+color: #666666;
+}
+
+.password input{
+    background-color: #f5f5f5;
+     border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    width: 544px;
+    height: 40px;
+    margin-top: 33px;
+
+}
+
+.email{
+    color: #666666;
+}
+ 
+.pass-input{
+    position: relative;
+}
+
+#icon{
+    position: absolute;
+    right: 15px;
+    top: 65%;
+    cursor: pointer;
+}
+
+.forgot{
+    text-align: right;
+    color: #999999;
+    margin-top: 30px;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: #999999;
+}
+
+.sign-in{
+    margin-top: 35px;
+    
+}
+
+.sign-in input {
+    width: 750px;
+    padding: 15px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    height: 73px;
+    
+}
+
+input[type=email]:valid{
+    color: green;
+}
